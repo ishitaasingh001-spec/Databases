@@ -1,0 +1,3 @@
+@echo off
+echo Testing privilege escalation detection...
+powershell.exe -Command "Start-Process notepad.exe -Verb runAs"
